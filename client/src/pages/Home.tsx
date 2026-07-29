@@ -17,7 +17,6 @@ import {
 } from "@/data/services";
 
 const HERO = "/manus-storage/hero_f34e692b.jpeg";
-const ABOUT = "/manus-storage/tatiana_9c61c0b5.webp";
 const STUDIO = "/manus-storage/salon_room_b7d3a8c1.jpeg";
 const SALON_ROOM = "/manus-storage/salon_room_b7d3a8c1.jpeg";
 const SALON_MIRROR = "/manus-storage/salon_mirror_96dd6003.jpeg";
