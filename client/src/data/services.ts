@@ -28,7 +28,7 @@ export const serviceCategories: ServiceCategory[] = [
     title: "Facials & Skin",
     blurb:
       "Custom facials designed around your skin's needs — from barrier repair to deep clarity and a lit-from-within glow.",
-    image: "/manus-storage/facial_b737ffb6.jpeg",
+    image: "/manus-storage/facial_b737ffb6.png",
     services: [
       {
         name: "Aura Beauty Barrier Restore Facial",
@@ -106,7 +106,7 @@ export const serviceCategories: ServiceCategory[] = [
     title: "Microchanneling",
     blurb:
       "ProCell Microchanneling stimulates collagen and elastin to transform skin texture, scarring, tone and more.",
-    image: "/manus-storage/products_2aeb0540.jpeg",
+    image: "/manus-storage/products_2aeb0540.png",
     services: [
       {
         name: "Microchanneling PRO",
@@ -136,55 +136,49 @@ export const serviceCategories: ServiceCategory[] = [
     title: "Lashes",
     blurb:
       "Custom UV-cured and classic lash artistry, lifts and tints — mapped to your eye shape and lash health.",
-    image: "/manus-storage/lashes_75acb036.jpeg",
+    image: "/manus-storage/lashes_75acb036.png",
     services: [
       {
         name: "UV Custom Full Set",
-        price: "$125",
+        price: "$150",
         duration: "3 hr",
         description:
           "Custom UV-cured lash extensions created to your facial mapping, eye shape, lash health and style — ideal for retention issues or adhesive sensitivity.",
       },
       {
         name: "UV Custom Touch-Up",
-        price: "$55",
+        price: "$65",
         duration: "1 hr",
         description: "Must have 70–80% of your lashes left. Best within seven days of your last appointment.",
       },
       {
         name: "UV Custom Standard Fill",
-        price: "$65",
+        price: "$80",
         duration: "2 hr",
         description: "Must have 40–50% of your lashes remaining on both eyes.",
       },
       {
         name: "UV Custom Extended Fill",
-        price: "$75",
+        price: "$95",
         duration: "2 hr 15 min",
         description: "Must have 30–40% of your lashes remaining.",
       },
       {
-        name: "Creative Color / Brown Full Set",
-        price: "$135",
+        name: "Opal Free Full Set",
+        price: "$200",
         duration: "3 hr",
         description:
-          "Brown, red or any color in the rainbow palette — for when black lashes just aren't your style.",
+          "Stunning, long-lasting extensions with a breakthrough 100% acrylate-free formula designed for sensitive eyes. Powered by advanced LED technology, it creates an instantly cured, waterproof, hypoallergenic bond that eliminates harsh chemical fumes and irritation for unmatched comfort and lasting wear.",
       },
       {
-        name: "Creative Color / Brown Touch-Up",
-        price: "$65",
-        duration: "1 hr",
-        description: "Must have 70–80% of your lashes left. Best within seven days of your last appointment.",
-      },
-      {
-        name: "Creative Color / Brown Standard Fill",
-        price: "$75",
+        name: "Opal Free Standard Fill",
+        price: "$100",
         duration: "2 hr",
         description: "Must have 40–50% of your lashes remaining on both eyes.",
       },
       {
-        name: "Creative Color / Brown Extended Fill",
-        price: "$85",
+        name: "Opal Free Extended Fill",
+        price: "$110",
         duration: "2 hr 15 min",
         description: "Must have 30–40% of your lashes remaining.",
       },
@@ -200,11 +194,6 @@ export const serviceCategories: ServiceCategory[] = [
         price: "$85",
         duration: "1 hr",
         description: "A lifted curl plus a tint for that mascara effect — without the mascara.",
-      },
-      {
-        name: "Add Color",
-        price: "$10",
-        duration: "10 min",
       },
       {
         name: "Transfer Fee",
@@ -228,7 +217,7 @@ export const serviceCategories: ServiceCategory[] = [
     id: "brows",
     title: "Brows",
     blurb: "Shaping, lamination and tints to frame your face with fuller, polished brows.",
-    image: "/manus-storage/brows_c1723038.jpeg",
+    image: "/manus-storage/brows_c1723038.png",
     services: [
       {
         name: "Brow Lamination Deluxe Package",
@@ -260,7 +249,7 @@ export const serviceCategories: ServiceCategory[] = [
     id: "waxing",
     title: "Waxing",
     blurb: "Smooth, careful waxing for face and body.",
-    image: "/manus-storage/studio_cd44c2e7.jpeg",
+    image: "/manus-storage/studio_cd44c2e7.png",
     services: [
       { name: "Underarm Wax", price: "$25", duration: "15 min" },
       { name: "Sideburn Wax", price: "$15", duration: "15 min" },
@@ -271,7 +260,7 @@ export const serviceCategories: ServiceCategory[] = [
     id: "addons",
     title: "Add-Ons & Enhancements",
     blurb: "Little extras to elevate any treatment.",
-    image: "/manus-storage/products_2aeb0540.jpeg",
+    image: "/manus-storage/products_2aeb0540.png",
     services: [
       {
         name: "Lip Plumping Treatment",
@@ -286,6 +275,13 @@ export const serviceCategories: ServiceCategory[] = [
         duration: "15 min",
         description:
           "A client favorite — a jelly-like mask compressed with ingredients that penetrate deeper than a regular mask.",
+      },
+      {
+        name: "Add Color",
+        price: "$10",
+        duration: "Add-on",
+        description:
+          "Add any color from the rainbow palette to your lash set — brown, red, or any shade you like.",
       },
     ],
   },
@@ -313,7 +309,7 @@ export const businessInfo = {
   name: "Aura Beauty LLC",
   owner: "Tatiana Kucera",
   address: "323 11th Ave S, Nampa, Idaho 83651",
-  phone: "(208) 717-5330",
+  phone: "(208 ) 717-5330",
   phoneHref: "tel:+12087175330",
   email: "tatianakucera65@gmail.com",
   directions:
