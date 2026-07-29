@@ -28,7 +28,7 @@ export const serviceCategories: ServiceCategory[] = [
     title: "Facials & Skin",
     blurb:
       "Custom facials designed around your skin's needs — from barrier repair to deep clarity and a lit-from-within glow.",
-    image: "/manus-storage/facial_b737ffb6.png",
+    image: "/manus-storage/facial_b737ffb6.jpeg",
     services: [
       {
         name: "Aura Beauty Barrier Restore Facial",
@@ -106,7 +106,7 @@ export const serviceCategories: ServiceCategory[] = [
     title: "Microchanneling",
     blurb:
       "ProCell Microchanneling stimulates collagen and elastin to transform skin texture, scarring, tone and more.",
-    image: "/manus-storage/products_2aeb0540.png",
+    image: "/manus-storage/products_2aeb0540.jpeg",
     services: [
       {
         name: "Microchanneling PRO",
@@ -136,7 +136,7 @@ export const serviceCategories: ServiceCategory[] = [
     title: "Lashes",
     blurb:
       "Custom UV-cured and classic lash artistry, lifts and tints — mapped to your eye shape and lash health.",
-    image: "/manus-storage/lashes_75acb036.png",
+    image: "/manus-storage/lashes_75acb036.jpeg",
     services: [
       {
         name: "UV Custom Full Set",
@@ -217,7 +217,7 @@ export const serviceCategories: ServiceCategory[] = [
     id: "brows",
     title: "Brows",
     blurb: "Shaping, lamination and tints to frame your face with fuller, polished brows.",
-    image: "/manus-storage/brows_c1723038.png",
+    image: "/manus-storage/brows_c1723038.jpeg",
     services: [
       {
         name: "Brow Lamination Deluxe Package",
@@ -249,7 +249,7 @@ export const serviceCategories: ServiceCategory[] = [
     id: "waxing",
     title: "Waxing",
     blurb: "Smooth, careful waxing for face and body.",
-    image: "/manus-storage/studio_cd44c2e7.png",
+    image: "/manus-storage/studio_cd44c2e7.jpeg",
     services: [
       { name: "Underarm Wax", price: "$25", duration: "15 min" },
       { name: "Sideburn Wax", price: "$15", duration: "15 min" },
@@ -260,7 +260,7 @@ export const serviceCategories: ServiceCategory[] = [
     id: "addons",
     title: "Add-Ons & Enhancements",
     blurb: "Little extras to elevate any treatment.",
-    image: "/manus-storage/products_2aeb0540.png",
+    image: "/manus-storage/products_2aeb0540.jpeg",
     services: [
       {
         name: "Lip Plumping Treatment",
