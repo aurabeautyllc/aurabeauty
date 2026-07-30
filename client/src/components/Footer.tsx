@@ -1,7 +1,7 @@
 // Quiet Atelier footer — espresso ground, bone text, restrained layout.
 import { Link } from "wouter";
 import { Instagram, Phone, Mail, MapPin } from "lucide-react";
-import { BOOKING_URL, businessInfo } from "@/data/services";
+import { businessInfo } from "@/data/services";
 
 const LOGO = "/manus-storage/logo_7bacdbb9.png";
 
@@ -21,14 +21,12 @@ export default function Footer() {
               and quiet luxury — designed to help you feel like the most radiant version
               of yourself.
             </p>
-            <a
-              href={BOOKING_URL}
-              target="_blank"
-              rel="noopener noreferrer"
+                        <Link
+              href="/book"
               className="mt-8 inline-block text-[0.74rem] uppercase tracking-[0.2em] border border-bone/40 px-7 py-3 text-bone transition-colors duration-300 hover:bg-clay hover:border-clay"
             >
               Book an Appointment
-            </a>
+            </Link>
           </div>
 
           {/* Explore */}
