@@ -21,6 +21,7 @@ const STUDIO = "/manus-storage/salon_room_b7d3a8c1.jpeg";
 const SALON_ROOM = "/manus-storage/salon_room_b7d3a8c1.jpeg";
 const SALON_MIRROR = "/manus-storage/salon_mirror_96dd6003.jpeg";
 const CTA = "/manus-storage/cta_e9b175a3.jpeg";
+const ABOUT = "/manus-storage/tatiana_4a1d8e92.webp";
 
 const featured = ["facials", "lashes", "microchanneling", "brows"];
 
