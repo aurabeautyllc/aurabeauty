@@ -7,13 +7,15 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
 import Gallery from "./pages/Gallery";
+import Book from "./pages/Book";
 
-function Router() {
+function Router( ) {
   return (
     <Switch>
       <Route path={"/"} component={Home} />
       <Route path={"/services"} component={Services} />
       <Route path={"/gallery"} component={Gallery} />
+      <Route path={"/book"} component={Book} />
       <Route path={"/404"} component={NotFound} />
       <Route component={NotFound} />
     </Switch>
