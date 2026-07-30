@@ -168,7 +168,7 @@ export const serviceCategories: ServiceCategory[] = [
         price: "$200",
         duration: "3 hr",
         description:
-          "Stunning, long-lasting extensions with a breakthrough 100% acrylate-free formula designed for sensitive eyes. Powered by advanced LED technology, it creates an instantly cured, waterproof, hypoallergenic bond that eliminates harsh chemical fumes and irritation for unmatched comfort and lasting wear.",
+          "Long-lasting extensions with a breakthrough 100% acrylate-free formula designed for sensitive eyes. Powered by advanced LED technology, it creates an instantly cured, waterproof, hypoallergenic bond that eliminates harsh chemical fumes and irritation for unmatched comfort and lasting wear.",
       },
       {
         name: "Opal Free Standard Fill",
