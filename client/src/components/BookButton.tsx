@@ -1,4 +1,4 @@
-import { BOOKING_URL } from "@/data/services";
+import { Link } from "wouter";
 
 interface Props {
   children?: React.ReactNode;
@@ -7,14 +7,14 @@ interface Props {
 }
 
 /**
- * Primary booking CTA — routes to the live Square Appointments flow
- * which handles scheduling, deposits and payment natively.
+ * Primary booking CTA — routes to the inline /book page
+ * which embeds the Square Appointments flow on-site.
  */
 export default function BookButton({
   children = "Book Now",
   variant = "solid",
   className = "",
-}: Props) {
+}: Props ) {
   const base =
     "inline-block text-[0.76rem] uppercase tracking-[0.2em] px-8 py-3.5 transition-all duration-300 active:scale-[0.97]";
   const styles =
@@ -25,13 +25,11 @@ export default function BookButton({
         : "border border-bone/70 text-bone hover:bg-bone hover:text-espresso";
 
   return (
-    <a
-      href={BOOKING_URL}
-      target="_blank"
-      rel="noopener noreferrer"
+    <Link
+      href="/book"
       className={`${base} ${styles} ${className}`}
     >
       {children}
-    </a>
+    </Link>
   );
 }
