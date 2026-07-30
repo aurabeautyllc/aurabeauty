@@ -4,12 +4,13 @@
   is an editorial band; every service links out to the live Square booking flow.
 */
 import { useEffect } from "react";
+import { Link } from "wouter";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BookButton from "@/components/BookButton";
 import { useReveal } from "@/hooks/useReveal";
 import MicrochannelingDetail from "@/components/MicrochannelingDetail";
-import { serviceCategories, BOOKING_URL } from "@/data/services";
+import { serviceCategories } from "@/data/services";
 
 export default function Services() {
   const ref = useReveal<HTMLDivElement>();
@@ -92,10 +93,8 @@ export default function Services() {
                     className="group reveal"
                     style={{ transitionDelay: `${Math.min(i, 6) * 50}ms` }}
                   >
-                    <a
-                      href={BOOKING_URL}
-                      target="_blank"
-                      rel="noopener noreferrer"
+                                        <Link
+                      href="/book"
                       className="flex items-start justify-between gap-6 py-6 transition-colors duration-300 hover:bg-card/60"
                     >
                       <div className="max-w-2xl">
