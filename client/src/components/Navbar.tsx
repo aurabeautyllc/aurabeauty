@@ -3,7 +3,6 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "wouter";
 import { Menu, X } from "lucide-react";
-import { BOOKING_URL } from "@/data/services";
 
 const LOGO = "/manus-storage/logo_7bacdbb9.png";
 
@@ -15,7 +14,7 @@ const links = [
   { label: "Visit", href: "/#visit" },
 ];
 
-export default function Navbar() {
+export default function Navbar( ) {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const [location] = useLocation();
@@ -70,10 +69,8 @@ export default function Navbar() {
               {l.label}
             </Link>
           ))}
-          <a
-            href={BOOKING_URL}
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            href="/book"
             className={`text-[0.74rem] uppercase tracking-[0.18em] px-6 py-2.5 border transition-all duration-300 active:scale-[0.97] ${
               solid
                 ? "border-clay bg-clay text-primary-foreground hover:bg-mocha hover:border-mocha"
@@ -81,7 +78,7 @@ export default function Navbar() {
             }`}
           >
             Book Now
-          </a>
+          </Link>
         </div>
 
         {/* Mobile toggle */}
@@ -112,14 +109,13 @@ export default function Navbar() {
               {l.label}
             </Link>
           ))}
-          <a
-            href={BOOKING_URL}
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            href="/book"
+            onClick={() => setOpen(false)}
             className="text-[0.78rem] uppercase tracking-[0.18em] px-6 py-3 bg-clay text-primary-foreground text-center"
           >
             Book Now
-          </a>
+          </Link>
         </div>
       </div>
     </header>
